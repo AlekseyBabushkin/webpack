@@ -1,0 +1,171 @@
+{
+  "burger": {
+    "scope": "html",
+    "prefix": "burger",
+    "body": [
+      "<button class=\"burger\" aria-label=\"Открыть меню\" aria-expanded=\"false\"  data-burger>",
+      "  <span class=\"burger__line\"></span>",
+      "</button>"
+    ],
+    "description": "Snippet for burger btn"
+  },
+  "checkbox": {
+    "scope": "html",
+    "prefix": "checkbox",
+    "body": [
+      "<label class=\"custom-checkbox\">",
+      "  <input type=\"checkbox\" class=\"custom-checkbox__field\">",
+      "  <span class=\"custom-checkbox__content\">$1</span>",
+      "</label>"
+    ],
+    "description": "Snippet for custom checkbox"
+  },
+  "navigation": {
+    "scope": "html",
+    "prefix": "nav",
+    "body": [
+      "<nav class=\"nav\" title=\"$1\">",
+      "  <ul class=\"nav__list\">",
+      "    <li class=\"nav__item\"><a href=\"#\" class=\"nav__link\"></a></li>",
+      "    <li class=\"nav__item\"><a href=\"#\" class=\"nav__link\"></a></li>",
+      "    <li class=\"nav__item\"><a href=\"#\" class=\"nav__link\"></a></li>",
+      "  </ul>",
+      "</nav>"
+    ],
+    "description": "Snippet for navigation"
+  },
+    
+  "basicswiper": {
+    "prefix": "swiper",
+    "body": [
+      "<div class=\"swiper $1\">",
+      "  <div class=\"swiper-wrapper\">",
+      "     <div class=\"swiper-slide\">",
+      "     </div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Snippet for basic swiper structure"
+  },
+
+  "graph modal Structure": {
+    "prefix": "modal",
+    "body": [
+      "<div class=\"graph-modal\">",
+      "  <div class=\"graph-modal__container\" role=\"dialog\" aria-modal=\"true\" data-graph-target=\"$1\">",
+      "    <button class=\"btn-reset graph-modal__close\" aria-label=\"Закрыть модальное окно\"></button>",
+      "    <div class=\"graph-modal__content\">$2</div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Snippet for graph-modal basic structure"
+  },
+  "graph modal Btn": {
+    "prefix": "btn-modal",
+    "body": [
+      "<button class=\"btn-reset $1\" data-graph-path=\"$2\">$3</button>"
+    ],
+    "description": "Snippet for graph-modal btn"
+  },
+  "picture": {
+    "prefix": "picture",
+    "body": [
+      "<picture>",
+      "  <source srcset=\"$1.avif\" type=\"image/avif\">",
+      "  <source srcset=\"$1.webp\" type=\"image/webp\">",
+      "  <img loading=\"lazy\" src=\"$1.$2\" class=\"image\" width=\"$4\" height=\"$5\" alt=\"$3\">",
+      "</picture>"
+    ],
+    "description": "Snippet for basic logo structure"
+  },
+  "svgimg": {
+    "scope": "html",
+    "prefix": "svgimg",
+    "body": [
+      "<img loading=\"lazy\" src=\"$1.$2\" class=\"image\" width=\"$4\" height=\"$5\" alt=\"$3\">"
+    ],
+    "description": "Snippet for simple html svg images"
+  },
+  "tooltip": {
+  "prefix": "tooltip",
+    "body": [
+      "<span class=\"tooltip\">",
+      "  <button class=\"tooltip__btn\" aria-describedby=\"$1\">$2</button>",
+      "  <span class=\"tooltip__txt\" role=\"tooltip\" id=\"$1\">",
+      "    <span class=\"visually-hidden\">Тултип: </span>",
+      "    $3",
+      "  </span>",
+      "</span>"
+    ],
+    "description": "Snippet for tooltip"
+  },
+
+  "svguse": {
+    "scope": "html",
+    "prefix": "use",
+    "body": [
+      "<svg class=\"\">",
+      "  <use xlink:href=\"#$1\"></use>",
+      "</svg>"
+    ],
+    "description": "Snippet for use svg sprites"
+  },
+  "basicform": {
+    "prefix": "form",
+    "body": [
+      "<form action=\"#\" class=\"form\">",
+      "  <label class=\"form__label\">",
+      "    <input type=\"text\" name=\"Имя\" class=\"input-reset form__input\" placeholder=\"Имя\">",
+      "  </label>",
+      "  <button class=\"btn-reset form__btn\">Отправить</button>",
+      "</form>"
+    ],
+    "description": "Snippet for basic form"
+  },
+  "tabs html sctructure": {
+    "prefix": "tabs",
+    "body": [
+      "<div class=\"tabs\" data-tabs=\"$1\">",
+      "  <ul class=\"tabs__nav\">",
+      "    <li class=\"tabs__nav-item\"><button class=\"tabs__nav-btn\" type=\"button\">$2</button></li>",
+      "    <li class=\"tabs__nav-item\"><button class=\"tabs__nav-btn\" type=\"button\">$3</button></li>",
+      "    <li class=\"tabs__nav-item\"><button class=\"tabs__nav-btn\" type=\"button\">$4</button></li>",
+      "  </ul>",
+      "  <div class=\"tabs__content\">",
+      "    <div class=\"tabs__panel\">$5</div>",
+      "    <div class=\"tabs__panel\">$6</div>",
+      "    <div class=\"tabs__panel\">$7</div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Snippet for basic tabs structure"
+  },
+  "social": {
+    "scope": "html",
+    "prefix": "social",
+    "body": [
+      "<ul class=\"social\" title=\"$1\">",
+      "  <li class=\"social__item\"><a href=\"#\" target=\"_blank\" class=\"social__link social__link--fb\" aria-label=\"Наша страница в Фейсбуке\"></a></li>",
+      "  <li class=\"social__item\"><a href=\"#\" target=\"_blank\" class=\"social__link social__link--vk\" aria-label=\"Наша страница во Вконтакте\"></a></li>",
+      "  <li class=\"social__item\"><a href=\"#\" target=\"_blank\" class=\"social__link social__link--tw\" aria-label=\"Наша страница в Твиттере\"></a></li>",
+      "</ul>"
+    ],
+    "description": "Snippet for social links"
+  },
+  "spoller": {
+  "prefix": "spoller",
+    "body": [
+      "<ul class=\"spoller\" data-spollers=\"$1\" data-one-spoller>",
+      "  <li class=\"spoller__item\">",
+      "    <button class=\"spoller__title btn-reset\" tabindex=\"-1\" data-spoller type=\"button\">$2</button>",
+      "    <div class=\"spoller__descr\">$3</div>",
+      "  </li>",
+      "  <li class=\"spoller__item\">",
+      "    <button class=\"spoller__title btn-reset\" tabindex=\"-1\" data-spoller type=\"button\">$4</button>",
+      "    <div class=\"spoller__descr\">$5</div>",
+      "  </li>",
+      "</ul>"
+    ],
+    "description": "Snippet for spoller"
+  }
+}

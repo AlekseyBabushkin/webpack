@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hello World</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      header
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="graph-modal">
+      <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="test">
+        <button class="btn-reset graph-modal__close" aria-label="Закрыть модальное окно"></button>
+        <div class="graph-modal__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui suscipit voluptates nostrum. Eveniet unde nobis vel praesentium delectus labore, nulla maxime, minus, provident sequi placeat accusamus fugit earum rem esse.</div>
+      </div>
+    </div>
+
+    <button class="btn-reset" data-graph-path="test">Открыть модальное окно</button>
+
+    <div class="graph-modal">
+      <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="second">
+        <button class="btn-reset graph-modal__close" aria-label="Закрыть модальное окно"></button>
+        <div class="graph-modal__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui suscipit voluptates nostrum. Eveniet unde nobis vel praesentium delectus labore, nulla maxime, minus, provident sequi placeat accusamus fugit earum rem esse.</div>
+      </div>
+    </div>
+
+    <button class="btn-reset" data-graph-path="second">Открыть модальное окно</button>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      footer
+    </div>
+  </footer>
+
+</body>
+
+</html>
